@@ -111,7 +111,7 @@ The pilot is not deemed successful solely because the MVP ships.
 
 ## 9. Project records
 
-- Experience Profile: ../.. / operating-system/templates/03_experience_profile.md
+- Experience Profile: ../../operating-system/templates/03_experience_profile.md
 - Rights Matrix: ../../operating-system/templates/04_rights_and_provenance_matrix.md
 - Product Evaluation: ../../operating-system/templates/05_product_evaluation_record.md
 - Pilot Report: ../../operating-system/templates/07_pilot_report.md

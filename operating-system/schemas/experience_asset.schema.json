@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/legalvc/legalvc-opc/blob/main/operating-system/schemas/experience_asset.schema.json",
+  "title": "LegalVC Experience Asset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project_id",
+    "asset_id",
+    "name",
+    "status",
+    "source_ids",
+    "rights_status",
+    "version"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "pattern": "^LV-[0-9]{4}-[0-9]{3}$"
+    },
+    "asset_id": {
+      "type": "string",
+      "minLength": 4
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "domain_model",
+        "decision_rule",
+        "workflow",
+        "skill",
+        "case_pattern",
+        "template",
+        "evaluation_case",
+        "exception_logic",
+        "other"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "DISCOVERED",
+        "SOURCED",
+        "RIGHTS_PENDING",
+        "LIMITED_USE",
+        "ENGINEERED",
+        "VALIDATED",
+        "PRODUCTIZED",
+        "RETIRED"
+      ]
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "contributor_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "rights_status": {
+      "type": "string",
+      "enum": [
+        "UNVERIFIED",
+        "PENDING",
+        "LIMITED_USE",
+        "APPROVED",
+        "REJECTED"
+      ]
+    },
+    "permitted_uses": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "research",
+          "internal_structuring",
+          "retrieval",
+          "inference",
+          "evaluation",
+          "training",
+          "customer_delivery",
+          "demonstration",
+          "marketing",
+          "sublicensing",
+          "derivative_development"
+        ]
+      }
+    },
+    "prohibited_uses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "jurisdictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version": {
+      "type": "string"
+    },
+    "effective_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "review_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "reviewer_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evaluation_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "maintenance_owner": {
+      "type": "string"
+    }
+  }
+}

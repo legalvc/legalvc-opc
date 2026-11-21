@@ -1,0 +1,4 @@
+project_id,asset_id,name,category,source_id,contributor,rights_status,permitted_use,version,status,reviewer,updated_at
+LV-2026-001,EX-4C-001,Founder/co-founder/core employee/investor role taxonomy,experience_hypothesis,PEOPLEWEEKLY-2018-4C,Public historical interview,UNVERIFIED,Public-source research only,0.1,DISCOVERED,,2026-11-21
+LV-2026-001,EX-4C-002,Contribution and commitment assessment,experience_hypothesis,UNASSIGNED,To be identified,UNVERIFIED,NONE,0.1,DISCOVERED,,2026-11-21
+LV-2026-001,EX-4C-003,Initial equity allocation judgment,experience_hypothesis,PEOPLEWEEKLY-2018-4C,Historical model contributor to be confirmed,UNVERIFIED,Public-source research only,0.1,RIGHTS_PENDING,,2026-11-21

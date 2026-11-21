@@ -93,6 +93,16 @@ Agent 是受授权的工具与执行系统，不具有独立法律人格。投�
 - 保护客户资料、个人信息、商业秘密及第三方权利；不得默认将客户数据用于训练或经验积累。
 - 受监管的投资、法律服务及金融活动，须依据实际主体、业务结构、司法辖区和适用要求开展。
 
+## LegalVC-OPC Operating System
+
+LegalVC-OPC 的内部执行系统已建立在 document-driven 方式上，先用标准记录和阶段门槛运行，再根据真实工作流决定是否开发 Workbench。
+
+- [Operating System 总览](operating-system/README.md)
+- [经验投资漏斗与阶段门槛](operating-system/01_experience_pipeline.md)
+- [Agent Team 职责与权限](operating-system/02_agent_team_charters.md)
+- [标准模板与组合台账](operating-system/templates/README.md)
+- [Pilot 01 — 4C AI-native Equity Intelligence](projects/4c-equity-intelligence/README.md)
+
 ## 仓库内容
 
 - index.html：LegalVC-OPC 对外介绍页。

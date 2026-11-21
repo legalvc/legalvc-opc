@@ -1,0 +1,2 @@
+project_id,decision_id,date,stage,decision,decision_owner,reason,conditions,budget_cny,next_action
+LV-2026-001,DEC-0001,2026-11-21,L0,CONDITIONAL_PASS,Human Organizer,"Allow low-risk discovery based on public information only; original model, brand, confidential materials and client case data are not authorized for product use.","Complete rights path and customer discovery before G1.",0,"Create Experience Profile and Rights Matrix; prepare interview plan"
